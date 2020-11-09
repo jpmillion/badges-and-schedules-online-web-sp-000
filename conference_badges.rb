@@ -14,9 +14,6 @@ end
 def printer(attendees)
   badge_messages = batch_badge_creator(attendees)
   room_assignments = assign_rooms(attendees)
-  i = 0 
-  while i < badge_messages.count do
-    puts badge_messages[i] + room_assignments[i]
-    i += 1 
+  
   end
 end
